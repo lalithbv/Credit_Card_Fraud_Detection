@@ -38,6 +38,6 @@ The number of neighbors considered, (parameter n_neighbors) is typically chosen 
 ## Observations :
 - Isolation Forest detected 73 errors versus Local Outlier Factor detecting 97 errors vs. SVM detecting 8516 errors
 - Isolation Forest is 99.74% accurate, LOF is 99.65% accurate, and SVM is 70.09% accurate.
-- When comparing error precision & recall for 3 models , the Isolation Forest performed much better than the LOF. We can see that the detection of fraud cases is around 27 % versus LOF detection rate of just 2 % and SVM of 0%.
+- When comparing error precision & recall for 3 models , the Isolation Forest performed much better than the LOF. We can see that the detection of fraud cases is around 27% versus LOF detection rate of just 2 % and SVM of 0%.
 - So overall, Isolation Forest Method performed much better in determining the fraud cases which is around 30%.
 - We can also improve on this accuracy by increasing the sample size or use deep learning algorithms but at the cost of computational expense. 
